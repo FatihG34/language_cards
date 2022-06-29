@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 .main {
-    background-color: bisque;
-    width: 35rem;
-    height: 50rem;
+    font-weight: lighter;
+    font-family: "Special Elite", cursive;
+    background-color: orange;
+    width: 25rem;
+    height: 42rem;
     margin: auto;
     border-radius: 2rem;
+    font-size: 0.6rem;
 }
 
 .title {
     color: white;
-    font-size: 2rem;
+    padding: 0.2rem 0.5rem 0;
+    font-size: 1rem;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
+/* .cards:hover .front img {
+    transform: scale(1.1);
+} */
