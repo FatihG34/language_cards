@@ -8,6 +8,17 @@
     align-items: center;
 }
 
+.fornt {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.back {
+    /* width: 20rem; */
+    border-radius: 1rem;
+    text-align: left;
+}
+
 .front img {
     width: 100px;
 }
@@ -15,8 +26,6 @@
 
 
 
-.back {
-    /* visibility: hidden; */
-    /* background-color: white; */
+/* .back {
     text-align: left;
-}
+} */

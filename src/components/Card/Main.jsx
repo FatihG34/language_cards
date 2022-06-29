@@ -5,7 +5,7 @@ import "./Main.css";
 const Main = () => {
     return (
         <div className="main">
-            <div>
+            <div className="title">
                 <h1>Languages</h1>
             </div>
             <div className="cards">

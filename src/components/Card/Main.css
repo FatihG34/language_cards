@@ -1,12 +1,18 @@
 .main {
     background-color: bisque;
-    width: 60rem;
-    height: 70rem;
+    width: 35rem;
+    height: 50rem;
     margin: auto;
+    border-radius: 2rem;
 }
 
+.title {
+    color: white;
+    font-size: 2rem;
+}
 
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }

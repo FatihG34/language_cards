@@ -1,22 +1,29 @@
-import "./Card.css"
-const Card = ({ name, img, options }) => {
-    // console.log(languages);
-    const remove = () => {
-        document.querySelector(".front").remove();
+import { useState } from "react";
+import "./Card.css";
 
-    }
+
+const Card = ({ name, img, options }) => {
+    const [isClick, setIsClick] = useState(true);
+
     return (
         <div className="allSide">
-            <div onClick={remove} className="front">
-                <img src={img} alt="" />
-                <h1>{name}</h1>
-            </div>
+            {
+                isClick
+                    ?
+                    <div onClick={() => setIsClick(false)} className="front">
+                        <img src={img} alt="" />
+                        <h1>{name}</h1>
+                    </div>
+                    :
+                    <div onClick={() => setIsClick(true)} className="back">
+                        {options.map((items) => {
+                            return <li>{items}</li>
+                        })}
+                    </div>
+            }
 
-            <div className="back">
-                {options.map((items) => {
-                    return <li>{items}</li>
-                })}
-            </div>
+
+
 
         </div>
     )
