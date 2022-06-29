@@ -1,14 +1,15 @@
 import './App.css';
-import Cards from './components/Cards';
-import Comps from './components/Comps';
-import Unmount from './components/Unmount';
+import Main from './components/Card/Main';
+import Header from './components/Header/Header';
+
 
 function App() {
+  // console.log(languages);
+
   return (
     <div className="App">
-      <Cards />
-      <Comps />
-      <Unmount />
+      <Header />
+      <Main />
     </div>
   );
 }

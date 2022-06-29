@@ -1,0 +1,12 @@
+.main {
+    background-color: bisque;
+    width: 60rem;
+    height: 70rem;
+    margin: auto;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}

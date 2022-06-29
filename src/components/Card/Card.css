@@ -1,0 +1,22 @@
+.allSide {
+    background-color: rgb(188, 163, 211);
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front img {
+    width: 100px;
+}
+
+
+
+
+.back {
+    /* visibility: hidden; */
+    /* background-color: white; */
+    text-align: left;
+}
