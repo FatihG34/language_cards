@@ -17,4 +17,4 @@
 
 <!-- You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). -->
 
-![Project Snapshot](./src/assets/language-cards.gif).
+![Project Snapshot](./src/assets/language-cards.gif)
