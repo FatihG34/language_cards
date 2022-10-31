@@ -15,6 +15,7 @@
 
 ## Outcome:
 
-<!-- You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). -->
+- If you want to see lamguage cards site, [You can visit here](https://fatihg34.github.io/language_cards/).
+
 
 ![Project Snapshot](./src/assets/language-cards.gif)
